@@ -1,0 +1,36 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "stack",
+    "isShellCommand": true,
+    "args": [
+    ],
+    "showOutput": "always",
+    "tasks": [
+        {
+            "taskName": "build"
+        },
+        {
+            "taskName": "test"
+        },
+        {
+            "taskName": "clean"
+        },
+        {
+            "taskName": "sdist"
+        },
+        {
+            "taskName": "bench"
+        },
+        {
+            "taskName": "ghci"
+        },
+        {
+            "taskName": "exec",
+            "args": [
+                "Main.exe"
+            ]
+        }
+    ]
+}
