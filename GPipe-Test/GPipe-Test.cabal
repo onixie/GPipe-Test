@@ -14,5 +14,8 @@ executable Main
                      , GPipe-GLFW >=1.2.2
                      , linear
                      , JuicyPixels
+                     , lens
+                     , GLFW-b
+
   ghc-options:         -Wall -threaded
   default-language:    Haskell2010
